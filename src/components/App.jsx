@@ -6,7 +6,14 @@ import Note from "./Note";
 function App(){
     return  (<div>
                 <Header />
-                <Note />
+                <Note 
+                    title = "I want to tell Something"
+                    msg = "I will become successful"
+                    />
+                <Note
+                    title = "Here is another Advice"
+                    msg = "Be Consistent"
+                    />
                 <Footer />
             </div>);
 }
