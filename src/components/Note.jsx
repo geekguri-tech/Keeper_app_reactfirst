@@ -1,4 +1,5 @@
 import React from "react";
+import Msg from "./Msg";
 
 function Note(props){
     return(
@@ -6,9 +7,7 @@ function Note(props){
             <h1>
                 {props.title}
             </h1>
-            <p> 
-                {props.msg}
-            </p>
+           <Msg msginfo = {props.msg} />
         </div>
     );
 }
